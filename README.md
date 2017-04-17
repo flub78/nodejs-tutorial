@@ -2,10 +2,7 @@
  
 ## Javascript
 
- File |  Description |
-| ---- | ---- |
-hello.js | Simplest nodejs hello world
-variables.js |  Simple variables and comments
+In the javascript directory you will find a set of short javascript examples demonstrating one feature of the language.
 
 ## Nodejs
  
