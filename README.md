@@ -5,6 +5,7 @@
  File |  Description |
 | ---- | ---- |
 hello.js | Simplest nodejs hello world
+variables.js |  Simple variables and comments
 
 ## Nodejs
  
