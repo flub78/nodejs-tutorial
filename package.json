@@ -1,0 +1,31 @@
+{
+  "name": "flub78-nodejs-tutorial",
+  "version": "0.1.0",
+  "description": "Javascript and nodejs examples and snippsets",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ejs": "^2.4.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flub78/nodejs-tutorial.git"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Frédéric Peignot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flub78/nodejs-tutorial/issues"
+  },
+  "homepage": "https://github.com/flub78/nodejs-tutorial#readme"
+}

@@ -9,14 +9,20 @@ All examples can be run by:
     node hello.js
     
 ## Nodejs
- 
+
 | File |  Description | URL |
 | ---- | ---- | ---- |
 | app.js |                 main app using local modules |
 | gameover.js |         simple event management |
-| hello2.html    |     HTML page used by server_html.js  |
 | monmodule.js |        local module used by app.js |
 | node_modules  |      local directory for nodejs modules |
+
+
+### In the servers directory
+ 
+| File |  Description | URL |
+| ---- | ---- | ---- |
+| hello2.html    |     HTML page used by server_html.js  |
 | routes.js            |   small html server using express for routing queries |
 | server1.js        |  simplest http server         | http://localhost:9090/ |
 | server2.js        |  simple http server generating html manually | http://localhost:9090/ |
@@ -99,4 +105,14 @@ describe('Array', function() {
 });
 ```
 
+## MongoDB
+
+After installation
+    # start the server
+    mkdir C:\data\db
+    cd C:\data\db
+    mongod
+    
+    # start the MongoDB console
+    mongo
 
