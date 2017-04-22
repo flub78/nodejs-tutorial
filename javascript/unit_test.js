@@ -6,6 +6,19 @@ console.log('Unit test in javascript');
 // Let start with unitjs
 // http://unitjs.com/guide/quickstart.html
 
+function assert(condition, message) {
+    if (!condition) {
+        message = message || "Assertion failed";
+        if (typeof Error !== "undefined") {
+            throw new Error(message);
+        }
+        throw message; // Fallback
+    }
+}
+
+assert (true, "true is true");
+assert (false, "false is true");
+
 console.log('bye.');
 
 

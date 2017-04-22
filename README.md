@@ -4,6 +4,10 @@
 
 In the javascript directory you will find a set of short javascript examples demonstrating one feature of the language.
 
+All examples can be run by:
+
+    node hello.js
+    
 ## Nodejs
  
 | File |  Description |
@@ -20,3 +24,31 @@ In the javascript directory you will find a set of short javascript examples dem
 | server4.js        |  simple http server parsing url parameters |
 | server_close.js | simple http server with callback on the close event |
 | server_html.js |  simple http server serving two URLs |
+
+## NPM
+
+NPM is bothe the node package repository and the package installer.
+
+### Package repository
+
+https://www.npmjs.com/
+
+https://www.npmjs.com/~flub78
+
+### Package installer
+
+    npm search openssl
+
+    npm install express
+
+To create a package.json:
+
+    npm init
+    
+    npm adduser
+
+    npm publish
+    
+    npm unpublish flub78-nodejs-tutorial
+
+
