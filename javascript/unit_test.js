@@ -2,7 +2,7 @@
 console.log('Unit test in javascript');
 
 // The problem is to select a unit test framework simple and flexible enough
-// There is a hug enumber of them
+// There is a huge number of them
 // Let start with unitjs
 // http://unitjs.com/guide/quickstart.html
 
