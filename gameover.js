@@ -1,3 +1,6 @@
+/*
+ * Event managemet, emit an event
+ */
 var EventEmitter = require('events').EventEmitter;
 
 var jeu = new EventEmitter();

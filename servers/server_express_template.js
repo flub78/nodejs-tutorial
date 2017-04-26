@@ -1,3 +1,13 @@
+/*
+ * Open classroom
+ * 
+ * Simple express server using ejs as template engine.
+ * 
+ * http://localhost:9090/
+ * http://localhost:9090/sous-sol
+ * http://localhost:9090/etage/3/chambre
+ * http://localhost:9090/compter/7
+ */
 var express = require('express');
 
 var app = express();

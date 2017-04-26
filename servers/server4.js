@@ -1,3 +1,8 @@
+/*
+ * Open Classroom
+ * First application, example 4
+ * Analyze the value of the parameters of the URL requet
+ */
 var http = require('http');
 var url = require('url');
 var querystring = require('querystring');
@@ -13,5 +18,7 @@ var server = http.createServer(function(req, res) {
     }
     res.end();
 });
+
+// http://localhost:9090/?nom=Doe&prenom=John
 server.listen(9090);
 

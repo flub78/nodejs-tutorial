@@ -1,8 +1,58 @@
 # nodejs-tutorial
+
+## Documentation
+
+### NodeJS
+
+* https://nodejs.org/en/
+* https://nodejs.org/download/release/v6.10.2/docs/api/
+* https://openclassrooms.com/courses/des-applications-ultra-rapides-avec-node-js/
+* http://expressjs.com/en/api.html
+
+#### NodeJS packages and middleware
+
+* https://www.npmjs.com/
+* http://expressjs.com/fr/
+* http://nodeframework.com/
+* http://www.meteorpedia.com/read/Why_Meteor
+* http://mongoosejs.com/index.html
+
+* https://www.npmjs.com/package/cookie-session
+* https://www.npmjs.com/package/body-parser
+
+### MongoDB
+
+* https://www.mongodb.com/
+
+### REST API specification
+
+* http://swagger.io/
+* https://app.swaggerhub.com/home
+* https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd
+
+### Testing
+
+* https://mochajs.org/
+* https://team.goodeggs.com/getting-started-with-selenium-webdriver-for-node-js-f262a00c52e1
+
+### WEB development
+
+* https://angularjs.org/
+* http://getbootstrap.com/
+* https://github.com/iliyan-trifonov/notepads-nodejs-angularjs-mongodb-bootstrap
+* https://stormpath.com/blog/angular-node-15-minutes
+* https://github.com/kdelemme/bootstrap-angular-node-mongo
+* https://www.youtube.com/watch?v=wz-ZkLB7ozo
+
+## Project directories
+
+* javascript: small javascripts snippets
+* servers: nodejs server examples
+* test: unit tests
+* node_modules: installed javascript external packages
+* views: views for the express example
  
 ## Javascript
-
-In the javascript directory you will find a set of short javascript examples demonstrating one feature of the language.
 
 All examples can be run by:
 
@@ -57,7 +107,19 @@ To create a package.json:
     
     npm unpublish flub78-nodejs-tutorial
 
-## Unit testing
+## Test and debugging
+
+### Manual testing
+
+First a server can be tested by accessing the site URL
+
+ * http://localhost:9090/
+ * http://localhost:9090/sous-sol
+ * http://localhost:9090/etage/1/chambre
+ * http://localhost:9090/?nom=Doe&prenom=John
+  
+
+### Automated testing
 
 Every project should have a correct test coverage. Every component of the application must be testable (class, module, model and data layer access, view). It must also be possible to test the application end-to-end, for a WEB application, it implies the capacity to control a WEB browser and check the rendered HTML.
 

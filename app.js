@@ -1,4 +1,4 @@
-var monmodule = require('./monmodule');
+var monmodule = require('monmodule');
 
 monmodule.direBonjour();
 monmodule.direByeBye();

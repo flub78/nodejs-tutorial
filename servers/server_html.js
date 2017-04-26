@@ -1,3 +1,7 @@
+/*
+ * Hello name, name got from a form
+ * http://localhost:9090
+ */
 var http = require('http');
 var url = require('url');
 var fs = require('fs');
@@ -16,7 +20,8 @@ varserver = http.createServer(
 	  } else {
 	    console.log('Noname!');
 	  	res.writeHead(200, {'Content-Type': 'text/html'});
-	  	fs.readFile('hello2.html', function (err,data) {
+	  	// root of the file system is the nodejs project. Not the javascript file location.
+	  	fs.readFile('html/hello2.html', function (err,data) {
 	  		res.end(data);
 	  	});
 	  	
