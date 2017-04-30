@@ -3,6 +3,8 @@
  * 
  * http://localhost:9090/hello3.html
  * http://localhost:9090/section/page.html
+ * 
+ * http://localhost:9090/Bootstrap_Template.html#
  */
 var express = require('express');
 var app = express();

@@ -1,5 +1,7 @@
 # nodejs-tutorial
 
+A collection of snippets and examples used for learning javascript, nodejs, mongodb, bootstrap and angularjs.
+
 ## Documentation
 
 ### NodeJS
@@ -43,6 +45,8 @@
 * https://stormpath.com/blog/angular-node-15-minutes
 * https://github.com/kdelemme/bootstrap-angular-node-mongo
 * https://www.youtube.com/watch?v=wz-ZkLB7ozo
+
+-----------------------------------------------------------
 
 ## Project directories
 
@@ -181,3 +185,10 @@ After installation
     # start the MongoDB console
     mongo
 
+## Bootstrap
+
+Experiment with bootstrap are made with the server_static.js
+
+### Some examples
+
+* http://localhost:9090/Bootstrap_Template.html
