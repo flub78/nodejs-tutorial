@@ -83,7 +83,7 @@ All examples can be run by:
 
 ## NPM
 
-NPM is bothe the node package repository and the package installer.
+NPM is both the node package repository and the package installer.
 
 ### Package repository
 
