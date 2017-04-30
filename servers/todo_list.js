@@ -62,9 +62,6 @@ on en crée une vide sous forme d'array avant la suite */
 
 app.use(function(req, res, next){
     res.redirect('/todo');   
-
-    // res.setHeader('Content-Type', 'text/plain');
-    // res.status(404).send('Page introuvable !');
 });
 
 // http://localhost:9090/todo/

@@ -80,6 +80,9 @@ All examples can be run by:
 | server4.js        |  simple http server parsing url parameters |
 | server_close.js | simple http server with callback on the close event |
 | server_html.js |  simple http server serving two URLs |
+| server_static.js | Minimal server to serve static pages |
+| todo_list.js | Simple todo list (Openclasseroom TP) |
+| socket_io.js | Socket.io example (Openclasseroom) |
 
 ## NPM
 
