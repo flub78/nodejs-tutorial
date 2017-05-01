@@ -189,6 +189,8 @@ After installation
 
 Experiment with bootstrap are made with the server_static.js
 
+    http://getbootstrap.com/
+
 ### Some examples
 
 * http://localhost:9090/Bootstrap_Template.html
