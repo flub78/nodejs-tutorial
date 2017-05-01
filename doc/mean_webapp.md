@@ -28,3 +28,14 @@ Structure of a MEAN WEB application
  * Blog and chat
  * Graphical data display
  
+ ## Bootstrap
+ 
+ The following pages are required
+ * A login page
+ * A home page with pasic navigation items
+ * A page with table data + filter
+ * A form page
+ 
+ All pages should share the same menu and footer
+ 
+ 
